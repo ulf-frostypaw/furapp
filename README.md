@@ -1,4 +1,4 @@
-# Visat la aplicación en [aquí](https://furrapp.com)
+# Visita la aplicación en [aquí](https://furrapp.com)
 ## ¿Qué es este proyecto?
 - Esta es otra red social más, con la diferencia que este proyecto será construido en base a otras ideas que quizá desafortunadamente fueron abandonados o simplemente ya no puedieron seguir en pie
 - Otro proyecto de codigo abierto y que todos pueden contribuir en su desarrollo
