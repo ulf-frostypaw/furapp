@@ -40,4 +40,7 @@
 * @UlfFrostyPaw (Desarrollador y fundador del proyecto)
 * Unos de mis amigos
 
+## Buenas practicas (principiantes) consultar los siguientes enlaces:
+* [programacion.net](https://programacion.net/articulo/20_consejos_para_escribir_css_moderno_parte_1_1579)
+
 lamento los inconvenientes si en algún punto abandono este proyecto...
