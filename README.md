@@ -1,27 +1,31 @@
-# Visita la aplicación [aquí](https://furrapp.com)
-## ¿Qué es este proyecto?
-- Esta es otra red social más, con la diferencia que este proyecto será construido en base a otras ideas que quizá desafortunadamente fueron abandonados o simplemente ya no puedieron seguir en pie
-- Otro proyecto de codigo abierto y que todos pueden contribuir en su desarrollo
-- Enfocado principalmente para personas que busquen desarrollar sus habilidades o tengan algo que mostrar a todo el mundo
-- Esto es algo para superar mis propios limites
+## Visita la aplicación [aquí](https://furrapp.com)
 
-## FUNCIONES DESTACADAS (Estos serán marcados cuando se hayan completado)
+Todos los cambios se verán reflejado aquí
 
-### Creación de cuenta (sign up)
+## TODO
+
+### Funciones
+
+* [ ] QR CODE https://www.npmjs.com/package/next-qrcode
+* [x] API en Laravel
+* [x] Next u otro framework
+* [ ] 
+
+#### Creación de cuenta (sign up)
 
 * [ ] Permite crear cuenta.
 * [ ] Valida email.
 * [ ] Valida password.
 * [ ] Muestra mensajes de error.
 
-### Inicio de sesión (sign in)
+#### Inicio de sesión (sign in)
 
 * [ ] Permite iniciar sesión.
 * [ ] Valida email.
 * [ ] Valida password.
 * [ ] Muestra mensajes de error.
 
-### Muro (feed/submissions)
+#### Muro (feed/submissions)
 
 * [ ] Muestra _muro_.
 * [ ] Permite publicar nuevos posts.
@@ -31,16 +35,19 @@
 * [ ] Permite filtrar posts por público/amigos.
 * [ ] Permite marcar posts como _gustados_ (like).
 
-### Panel de Administrador
+#### Panel de Administrador
 * [ ] Administración de usuarios
 * [ ] Control de estadisticas
-* <i>El resto de funciones serán añadidas con el paso del tiempo y  más particiantes se unan al proyecto</i>
+
+### Diseño
+* [x] Interfaz de usuario Basada en ChakraUI https://chakra-ui.com/
+- Plantillas extraidas de chackra-templates https://chakra-templates.dev/
+* [ ] Ideas de Figma
+- [ ] Logos y otros recursos requeridos de marca (pendiente)
 
 # Fundadores (Planteamiento y Desarrollo)
-* @UlfFrostyPaw (Desarrollador y fundador del proyecto)
+* @UlfFrostyPaw (Desarrollo Front y Back)
 * Unos de mis amigos
 
-## Buenas practicas (principiantes) consultar los siguientes enlaces:
-* [programacion.net](https://programacion.net/articulo/20_consejos_para_escribir_css_moderno_parte_1_1579)
-
+#### Avisos y extras
 lamento los inconvenientes si en algún punto abandono este proyecto...
