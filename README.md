@@ -2,12 +2,10 @@
 
 Todos los cambios se verán reflejado aquí
 
-## TODO
-
 ### Funciones
 
 * [ ] QR CODE https://www.npmjs.com/package/next-qrcode
-* [x] API en Laravel
+* [ ] API en Laravel (PENDIENTE)
 * [x] Next u otro framework
 * [ ] 
 
@@ -48,6 +46,15 @@ Todos los cambios se verán reflejado aquí
 # Fundadores (Planteamiento y Desarrollo)
 * @UlfFrostyPaw (Desarrollo Front y Back)
 * Unos de mis amigos
+
+# POR HACER
+
+- [ ] Terminar la API de Laravel
+- [ ] Implementar linea del tiempo https://github.com/karolkozer/planby
+- [ ] Personalización de tema https://www.hyperthe.me/
+- [ ] Librería para crear imagenes en los metadatos de los usuario. parametros (primer nombre, apellidos, nombre de usuario, imagen actual de perfil del usuario, logo o iniciales de la app)
+- [ ] Emoji Picker https://github.com/missive/emoji-mart
+- [ ] Funcion de mapa (Inspirado en Furmap)
 
 #### Avisos y extras
 lamento los inconvenientes si en algún punto abandono este proyecto...

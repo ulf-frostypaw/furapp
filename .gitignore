@@ -1,10 +1,13 @@
 /api/node_modules
+/app/node_modules
+/node_modules
 /api/public/hot
 /api/public/storage
 /api/storage/*.key
 /api/database/migrations/*.php
 /api/vendor
 /api/.env
+/api/.env.example
 /api/.env.backup
 /api/.phpunit.result.cache
 /api/docker-compose.override.yml

@@ -48,7 +48,7 @@ a {
     background: black;
   }
 }
-@media(max-width: 600px;){
+@media(max-width: 600px){
   .main-header nav{
     display: flex;
   }
