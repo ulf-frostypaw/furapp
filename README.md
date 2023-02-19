@@ -1,8 +1,6 @@
 ## Visita la aplicación [aquí](https://furrapp.com)
 
-Todos los cambios se verán reflejado aquí
-
-## CONCEPTO DE FIGMA
+ CONTRIBUYE PARA EL **CONCEPTO DE FIGMA: https://www.figma.com/file/MGjj4Vfunm4yB5PFZVqvrA/Fursonas-Site**
 
 
 ### Funciones
