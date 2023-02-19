@@ -2,6 +2,9 @@
 
 Todos los cambios se verán reflejado aquí
 
+## CONCEPTO DE FIGMA
+
+
 ### Funciones
 
 * [ ] QR CODE https://www.npmjs.com/package/next-qrcode
