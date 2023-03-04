@@ -13,6 +13,7 @@ export default function Home() {
       description="Then with a short description here."
     />
     <h1>Te damos la bienvenida a esta nueva actualización.</h1>
+    
     </>
   )
 }

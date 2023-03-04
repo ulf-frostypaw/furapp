@@ -56,6 +56,8 @@
 - [ ] Librería para crear imagenes en los metadatos de los usuario. parametros (primer nombre, apellidos, nombre de usuario, imagen actual de perfil del usuario, logo o iniciales de la app)
 - [ ] Emoji Picker https://github.com/missive/emoji-mart
 - [ ] Funcion de mapa (Inspirado en Furmap)
+- [ ] Sección de RolPlay
+- [ ] Servicio de correo electronico en subdominio
 
 #### Avisos y extras
 lamento los inconvenientes si en algún punto abandono este proyecto...
