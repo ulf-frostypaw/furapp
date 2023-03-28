@@ -2,6 +2,10 @@
 
  CONTRIBUYE PARA EL **CONCEPTO DE FIGMA: https://www.figma.com/file/MGjj4Vfunm4yB5PFZVqvrA/Fursonas-Site**
 
+# ¿Quienes somos?
+## Misión
+## Visión
+## Valores
 
 ### Funciones
 
