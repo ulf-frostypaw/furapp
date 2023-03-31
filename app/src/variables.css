@@ -1,0 +1,25 @@
+:root{
+    --white: #fff;
+    --gray: #99AAB5; /* DEFAULT COLOR */
+
+    --color-normal: #4F545C;
+    --color-primary: #5865F2;
+    --color-success: #43B581;
+    --color-warning: #C98C23;
+    --color-danger: #EC615B;
+
+    --color-gray-100: #404040;
+    --color-gray-200: #242424;
+    --color-gray-300: #131313;
+    --color-gray-400: #141414;
+
+    --color-gray-500: #111111;
+    --color-gray-600: #000000;
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
