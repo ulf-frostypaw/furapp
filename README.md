@@ -11,8 +11,6 @@
 
 * [ ] QR CODE https://www.npmjs.com/package/next-qrcode
 * [ ] API en Laravel (PENDIENTE)
-* [x] Next u otro framework
-* [ ] 
 
 #### Creación de cuenta (sign up)
 
@@ -43,7 +41,6 @@
 * [ ] Control de estadisticas
 
 ### Diseño
-* [x] Interfaz de usuario Basada en ChakraUI https://chakra-ui.com/
 - Plantillas extraidas de chackra-templates https://chakra-templates.dev/
 * [ ] Ideas de Figma
 - [ ] Logos y otros recursos requeridos de marca (pendiente)
@@ -53,7 +50,7 @@
 * Unos de mis amigos
 
 # POR HACER
-
+- [ ] Compontentes (Botones, sidebar)
 - [ ] Terminar la API de Laravel
 - [ ] Implementar linea del tiempo https://github.com/karolkozer/planby
 - [ ] Personalización de tema https://www.hyperthe.me/

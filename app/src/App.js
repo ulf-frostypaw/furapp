@@ -6,6 +6,7 @@ import Map from './pages/Map'
 import Login from './pages/forms/Login'
 import Register from './pages/forms/Register'
 import RecoveryPassword from './pages/forms/RecoveryPassword'
+import User from './pages/User/User'
 
 //import Layout from './components/Layout'
 
@@ -17,6 +18,8 @@ function App() {
         <Route path="/" element={ <Home/> } />
         <Route path="/users" element={ <Users /> } />
         <Route path="/map" element={ <Map /> }/>
+        
+        <Route path="/user/:getUsername" element={ <User /> }/>
 
         {/* forms */}
         <Route path="/login" component={<Login />} />

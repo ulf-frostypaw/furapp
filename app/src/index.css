@@ -7,11 +7,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #131313;
   color: #fff;
-  display: grid;
+  /*display: grid;
   grid-gap: 20px;
-  gap: 20px;
+  gap: 20px;*/
 }
-
+:root{
+  --bg: #242526;
+  --bg-accent: #484a4d;
+  --text-color: #dadce1;
+  --nav-size: 60px;
+  --border: 1px solid #474a4d;
+  --border-radius: 8px;
+  --speed: 500ms;
+}
+ul{
+  padding-inline-start: 0;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

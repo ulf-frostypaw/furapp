@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 export default function Map(){
     return(
         <Layout titlePage={'Mapa'}>
-            <MapComponent heightMap={'350'} widthMap={'450'} />
+            <MapComponent heightMap={'600px'} widthMap={'100%'} />
         </Layout>
     );
 
