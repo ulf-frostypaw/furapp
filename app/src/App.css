@@ -1,9 +1,37 @@
 @import url(./variables.css);
+/*font-family: 'DM Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;*/
 body{
   margin: 0;
   padding: 0;
-
   background: var(--color-gray-400);
   color: var(--white);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif; /* TODO: CUSTOMIZE FONT-FAMILY */
+}
+/*TODO: SET CONF TO NEW LOGO */
+.logo a{
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+}
+.grid{
   display: grid;
+}
+.textarea{
+  outline: none;
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-gray-100);
+  color: var(--white);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  min-width: 250px;
+  min-height: 100px;
+  max-height: 300px;
+  max-width: 100%;
+  resize: vertical;
 }

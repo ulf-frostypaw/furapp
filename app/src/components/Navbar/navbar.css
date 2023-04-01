@@ -1,3 +1,14 @@
+@import url('../../variables.css');
+:root{
+  --bg: #242526;
+  --bg-accent: #484a4d;
+  --text-color: #dadce1;
+  --nav-size: 50px;
+  --border: 1px solid #474a4d;
+  --border-radius: 8px;
+  --speed: 500ms;
+}
+
 .navbar {
   height: var(--nav-size);
   background-color: var(--bg);
@@ -5,12 +16,18 @@
   border-radius: var(--border);
   display: flex;
   align-items: center;
+  border-bottom: 1px solid var(--color-gray-100);
 }
 
-.navbar-nav {
-  min-width: 95%;
-  max-width: 100%;
+.navbar-nav { /* TODO: FIX SIZE*/
+  min-width: 94%;
+  max-width: 94%;
+  z-index: 1;
   height: 100%;
   display: flex;
   justify-content: flex-end;
+}
+
+ul{
+  padding-inline-start: 0;
 }

@@ -1,4 +1,6 @@
 import {Route, Routes } from 'react-router-dom'
+import './App.css'
+
 import Home from './pages/Home'
 import Users from './pages/Users'
 import Map from './pages/Map'
