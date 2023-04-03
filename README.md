@@ -36,6 +36,9 @@
 * [ ] Permite filtrar posts por público/amigos.
 * [ ] Permite marcar posts como _gustados_ (like).
 
+#### Usuario
+<img src="https://raw.githubusercontent.com/ulf-frostypaw/furapp/v1/screenshots/1.png" />
+
 #### Panel de Administrador
 * [ ] Administración de usuarios
 * [ ] Control de estadisticas
