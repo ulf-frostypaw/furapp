@@ -4,7 +4,6 @@ font-family: 'Inter', sans-serif;
 font-family: 'Roboto', sans-serif;*/
 body{
   margin: 0;
-  padding: 0;
   background: var(--color-gray-400);
   color: var(--white);
 
@@ -18,6 +17,22 @@ body{
   font-weight: 700;
   color: var(--white);
   font-family: 'Inter', sans-serif;
+}
+.big-title{
+  font-size: 80px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+.title-description{
+  font-size: 25px;
+  font-weight: 500;
+}
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .grid{
   display: grid;
