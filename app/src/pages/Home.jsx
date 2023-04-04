@@ -1,13 +1,14 @@
 //import CardComponentDiv from "../components/CardComponentDiv";
+import { Link } from 'react-router-dom'
+import Button from '../components/Button'
+import Card from '../components/Card'
 import Layout from "../components/Layout";
-import Textarea from "../components/Textarea";
+//import Textarea from "../components/Textarea";
 import ReaderJournal from "../components/Read/Journal";
 export default function Home(){
     return(
         <Layout titlePage={'Inicio'}>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsum exercitationem quasi eligendi rerum iure cupiditate asperiores saepe tempore accusantium! Vitae earum, fugit pariatur sint provident doloribus laudantium recusandae. Accusamus!</span>
-                <ReaderJournal />
-                <Textarea />
+                <Card CardContent={<ReaderJournal JournalContent={"[link]https://www.youtube.com/embed/AB6RjNeDII0[/link]"} />} CardClass={'card-warning'} />
         </Layout>
     );
 }

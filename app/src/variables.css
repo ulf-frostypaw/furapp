@@ -2,11 +2,25 @@
     --white: #fff;
     --gray: #99AAB5; /* DEFAULT COLOR */
 
-    --color-normal: #4F545C;
-    --color-primary: #5865F2;
-    --color-success: #43B581;
-    --color-warning: #C98C23;
-    --color-danger: #EC615B;
+    --color-normal: rgba(79, 84, 92, 1);
+    --color-normal-t75: rgba(79, 84, 92, .75);
+    --color-normal-t50: rgba(79, 84, 92, .50);
+
+    --color-primary: rgba(88, 101, 242, 1);
+    --color-primary-t75: rgba(88, 101, 242, .75);
+    --color-primary-t50: rgba(88, 101, 242, .50);
+
+    --color-success: rgba(67, 181, 129, 1);
+    --color-success-t75: rgba(67, 181, 129, .75);
+    --color-success-t50: rgba(67, 181, 129, .50);
+
+    --color-warning: rgba(201, 140, 35, 1);
+    --color-warning-t75: rgba(201, 140, 35, .75);
+    --color-warning-t50: rgba(201, 140, 35, .50);
+
+    --color-danger: rgba(236, 97, 91, 1);
+    --color-danger-t75: rgba(236, 97, 91, .75);
+    --color-danger-t50: rgba(236, 97, 91, .50);
 
     --color-gray-100: #404040;
     --color-gray-200: #242424;

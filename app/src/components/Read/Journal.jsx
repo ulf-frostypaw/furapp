@@ -9,11 +9,9 @@ import React from 'react';
 import parser from 'bbcode-to-react';
 //import { renderToString } from 'react-dom/server';
 
-const ReaderJournal = () => {
+const ReaderJournal = ({JournalContent}) => {
     return(
-        <>
-            <p>{parser.toReact('[b]strong[/b]')}</p>
-        </>
+        <>{parser.toReact(JournalContent)}</>
     );
 }
 export default ReaderJournal;

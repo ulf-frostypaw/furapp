@@ -1,18 +1,17 @@
-import { Link } from "react-router-dom";
 import Navbar from './Navbar/Navbar'
 import NavItem from './NavItem/NavItem'
 import DropdownMenu from './Dropdown/DropdownMenu'
 
-import { BiBellMinus } from "react-icons/bi";
-import { AiOutlinePlusCircle, AiOutlineCaretDown } from "react-icons/ai";
-import { TbBrandMessenger } from "react-icons/tb";
+import NavbarItem from './NavItem/NavbarItem';
+
+import { AiOutlineCaretDown } from "react-icons/ai";
+import { FaUsers, FaMapMarkedAlt } from "react-icons/fa"
 
 const HeaderLogged = () => {
     return(
         <Navbar>
-            <NavItem icon={<AiOutlinePlusCircle />} />
-            <NavItem icon={<BiBellMinus />} />
-            <NavItem icon={<TbBrandMessenger />} />
+            <NavbarItem NavbarItemLink={'/users'} NavbarItemContent={<FaUsers />} NavbarItemId={'1'} />
+            <NavbarItem NavbarItemLink={'/map'} NavbarItemContent={<FaMapMarkedAlt />} NavbarItemId={'2'} />
             <NavItem icon={<AiOutlineCaretDown />}>
                 <DropdownMenu />
             </NavItem>

@@ -50,3 +50,79 @@ body{
   max-width: 100%;
   resize: vertical;
 }
+
+.card{
+  border-radius: 10px;
+  padding: 7px 3px;
+  text-align: center;
+  background-color: var(--color-gray-200);
+  color: var(--white);
+  border: 1px solid var(--color-gray-100);
+  margin: 7px 0;
+}
+
+.button{
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  outline: none;
+  transition: 100ms;
+}
+.button:hover{
+  background-color: var(--color-gray-100) !important;
+}
+
+
+.primary{
+  border-color: var(--color-primary) !important;
+  background-color: var(--color-primary) !important;
+}
+.primary:hover{
+  border-color: var(--color-primary) !important;
+  background-color: var(--color-primary-t75) !important;
+}
+
+.success{
+  border-color: transparent !important;
+  background-color: var(--color-success) !important;
+}
+.success:hover{
+  border-color: var(--color-success) !important;
+  background-color: var(--color-success-t75) !important;
+}
+
+.warning{
+  border-color: transparent !important;
+  background-color: var(--color-warning) !important;
+}
+.warning:hover{
+  border-color: var(--color-warning) !important;
+  background-color: var(--color-warning-t75) !important;
+}
+
+.danger{
+  border-color: transparent !important;
+  background-color: var(--color-danger) !important;
+}
+.danger:hover{
+  border-color: var(--color-danger) !important;
+  background-color: var(--color-danger-t75) !important;
+}
+
+
+.card-primary{
+  border-color: var(--color-primary-t75) !important;
+  background-color: var(--color-primary-t50) !important;
+}
+.card-success{
+  border-color: var(--color-success-t75) !important;
+  background-color: var(--color-success-t50) !important;
+}
+.card-warning{
+  border-color: var(--color-warning-t75) !important;
+  background-color: var(--color-warning-t50) !important;
+}
+.card-danger{
+  border-color: var(--color-danger-t75) !important;
+  background-color: var(--color-danger-t50) !important;
+}

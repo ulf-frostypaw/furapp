@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'react-tooltip/dist/react-tooltip.css' // REACT tooltip
 import App from './App';
 
 import { BrowserRouter ,

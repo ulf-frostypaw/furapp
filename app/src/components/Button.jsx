@@ -1,5 +1,9 @@
 // DEFAULT BUTTON OWO
 
 const Button = ({buttonValue, buttonClass, buttonContent, buttonName}) =>{
-    <button value={buttonValue} className={'button ' + buttonClass} name={buttonName}>{buttonContent}</button>
+    return(
+        <button value={buttonValue} className={'button card ' + buttonClass} name={buttonName}>{buttonContent}</button>
+    )
 }
+
+export default Button;
