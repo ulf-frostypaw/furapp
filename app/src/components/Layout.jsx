@@ -2,7 +2,7 @@ import React from 'react';
 import {Helmet} from "react-helmet";
 
 import HeaderLogged from './HeaderLogged';
-const Layout = ({children, titlePage}) =>{
+const Layout = ({children, titlePage, LayoutClass}) =>{
     return(
         <>
             <Helmet>
@@ -10,7 +10,7 @@ const Layout = ({children, titlePage}) =>{
             </Helmet>
             
             <HeaderLogged />
-            <div className='container grid'>{children}</div>
+            <div className={'container grid ' + LayoutClass}>{children}</div>
         </>
     ); 
 }

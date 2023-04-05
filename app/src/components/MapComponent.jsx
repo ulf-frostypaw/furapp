@@ -1,30 +1,61 @@
+import React, {useEffect, useState, Suspense} from 'react';
+import { Link } from 'react-router-dom';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import '../pages/map.css'
 // TODO: Multiple locations using json files. Fetch DB content
 import L from 'leaflet';
+import 'leaflet.markercluster';
+import 'leaflet.markercluster/dist/MarkerCluster.css';
+import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
+
+import'@changey/react-leaflet-markercluster/dist/styles.min.css';
+import MarkerClusterGroup from '@changey/react-leaflet-markercluster'; // BUG: DONT CREATE GROUPS
+
+import data from '../map.json'
 
 delete L.Icon.Default.prototype._getIconUrl;
-
+// SET DEF ICON TO FURMAP
 L.Icon.Default.mergeOptions({
     iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
     iconUrl: require('leaflet/dist/images/marker-icon.png'),
     shadowUrl: require('leaflet/dist/images/marker-shadow.png')
 });
 
+
 const MapComponent = ({heightMap}) => {
+    const [puntos, setPuntos] = useState([]);
+    const getPuntos = () => {
+        let arreglo = [];
+        data.map(info => {
+            arreglo.push(
+                <MarkerClusterGroup>
+                    <Marker position={[info.latitude, info.longitude]}>
+                        <Popup>
+                            {info.username}
+                            <br />
+                            <Link to={'/user/' + info.idsmall}>Ver perfil</Link>
+                        </Popup>
+                    </Marker>
+                </MarkerClusterGroup>
+            );
+        });
+        setPuntos(arreglo);
+    }
+    useEffect(() => {
+        getPuntos();
+    }, []);
+
     return (
-        <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false} style={{height: heightMap, zIndex: 0}}>
-            <TileLayer
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            />
-            <Marker position={[51.505, -0.09]}>
-                <Popup>
-                A pretty CSS3 popup. <br /> Easily customizable.
-                </Popup>
-            </Marker>
-        </MapContainer>
+        <Suspense fallback={'Cargando mapa...'}>
+            <MapContainer center={[19.3911668, -99.4238156]} zoom={5} scrollWheelZoom={true} style={{height: heightMap, zIndex: 0}}>
+                <TileLayer
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                {puntos}
+            </MapContainer>
+        </Suspense>
     );
 }
 
