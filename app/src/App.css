@@ -6,7 +6,6 @@ body{
   margin: 0;
   background: var(--color-gray-400);
   color: var(--white);
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif; /* TODO: CUSTOMIZE FONT-FAMILY */
@@ -28,6 +27,7 @@ body{
 .title-description{
   font-size: 25px;
   font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
 }
 .container{
   margin-left: auto;
@@ -144,4 +144,13 @@ body{
 .card-danger{
   border-color: var(--color-danger-t75) !important;
   background-color: var(--color-danger-t50) !important;
+}
+
+@media screen and (max-width: 480px) {
+  .big-title{
+    font-size: 40px;
+  }
+  .title-description{
+    font-size: 15px;
+  }
 }

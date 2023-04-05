@@ -6,7 +6,7 @@ const Navbar = (props) => {
   return (
     <nav className='navbar'>
       <ul className='logo'>
-        <Link to={'/'}>LOGOTIPO</Link>
+        <Link to={'/'}>FurrApp</Link>
       </ul>
         <ul className='navbar-nav'>
             {props.children}

@@ -1,7 +1,7 @@
 .dropdown {
   position: absolute;
   top: 58px;
-  width: 300px;
+  width: 300px; /*calc(90% - 35px)*/
   transform: translateX(-45%);
   background-color: var(--bg);
   border: var(--border);

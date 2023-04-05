@@ -23,8 +23,7 @@
 }
 
 .navbar-nav { /* TODO: FIX SIZE*/
-  min-width: 94%;
-  max-width: 94%;
+  width: calc(100%);
   z-index: 1;
   height: 100%;
   display: flex;
