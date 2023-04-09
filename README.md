@@ -9,7 +9,7 @@
 
 ### Funciones
 
-* [ ] QR CODE https://www.npmjs.com/package/next-qrcode
+* [ ] QR CODE https://www.npmjs.com/package/next-qrcode /// https://www.npmjs.com/package/qrcode.react
 * [ ] API en Laravel (PENDIENTE)
 
 #### Creación de cuenta (sign up)
@@ -44,7 +44,6 @@
 * [ ] Control de estadisticas
 
 ### Diseño
-- Plantillas extraidas de chackra-templates https://chakra-templates.dev/
 * [ ] Ideas de Figma
 - [ ] Logos y otros recursos requeridos de marca (pendiente)
 
@@ -62,6 +61,7 @@
 - [ ] Funcion de mapa (Inspirado en Furmap)
 - [ ] Sección de RolPlay
 - [ ] Servicio de correo electronico en subdominio
+- [ ] BOTS: https://github.com/mastashake08/laravel-chat-gpt-api
 
 #### Avisos y extras
 lamento los inconvenientes si en algún punto abandono este proyecto...

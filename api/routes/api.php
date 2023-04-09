@@ -11,6 +11,18 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::redirect('/', env('APP_URL'));
 
-Route::get('/login', function () {
-    return "Hello world!";
+// VERSIOANDO LA API
+/*
+* mapa de rutas para la api:
+* /users/
+* /user/{username}/ -- FETCH ALL USER DATA (PROPS: USERNAME, FIRSTNAME, LASTNAME, MAIL, PWD, LAT, LONG, ID, TRYLOGS, TOKEN[REUSABLE PARA LA APP, CODE A B64])
+* /submissions - GET JPURNALS DATA AND IMAGES (SUBMIT, UPDATE, DELETE, PRIVACY, TYPE: NSFW/SFW [AUTO], )
+* /
+*/
+Route::prefix('v1')->group(function () {
+
+    Route::get('/login', function () {
+        return "Hello world!";
+    });
+
 });
