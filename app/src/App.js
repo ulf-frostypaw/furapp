@@ -25,9 +25,9 @@ function App() {
     <div className="App">
       <Routes>
         {/* main page */}
-        <Route path="/" element={ <Home/> } />
-        <Route path="/users" element={ <Users /> } />
-        <Route path="/map" element={ <Map /> }/>
+        <Route path="/" exact element={ <Home/> } />
+        <Route path="/users" exact element={ <Users /> } />
+        <Route path="/map" exact element={ <Map /> }/>
 
         <Route path='*' element={ <Error404 /> } />
         
@@ -40,9 +40,9 @@ function App() {
         <Route path="/user/:getUsername/favorites" element={ <UserFavorites /> }/>
 
         {/* forms */}
-        <Route path="/login" component={<Login />} />
-        <Route path="/register" component={<Register />} />
-        <Route path='/reset_password' component={<RecoveryPassword />} />
+        <Route path="/login" exact  component={<Login />} />
+        <Route path="/register" exact component={<Register />} />
+        <Route path='/reset_password' exact component={<RecoveryPassword />} />
 
         {/* about page */}
         
