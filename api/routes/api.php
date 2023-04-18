@@ -13,11 +13,11 @@ Route::redirect('/', env('APP_URL'));
 
 // VERSIOANDO LA API
 /*
-* mapa de rutas para la api:
-* /users/
-* /user/{username}/ -- FETCH ALL USER DATA (PROPS: USERNAME, FIRSTNAME, LASTNAME, MAIL, PWD, LAT, LONG, ID, TRYLOGS, TOKEN[REUSABLE PARA LA APP, CODE A B64])
-* /submissions - GET JPURNALS DATA AND IMAGES (SUBMIT, UPDATE, DELETE, PRIVACY, TYPE: NSFW/SFW [AUTO], )
-* /
+    * mapa de rutas para la api:
+    * /users/ -- PAGINATIONS (JSON DEFAULT)
+    * /user/{username}/ -- FETCH ALL USER DATA (PROPS: USERNAME, FIRSTNAME, LASTNAME, MAIL, PWD, LAT, LONG, ID, TRYLOGS, TOKEN[REUSABLE PARA LA APP, CODE A B64])
+    * /submissions - GET JPURNALS DATA AND IMAGES (SUBMIT, UPDATE, DELETE, PRIVACY, TYPE: NSFW/SFW [AUTO], )
+    * /
 */
 Route::prefix('v1')->group(function () {
 

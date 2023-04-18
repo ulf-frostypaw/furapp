@@ -44,22 +44,21 @@
 * [ ] Control de estadisticas
 
 ### Diseño
-* [ ] Ideas de Figma
-- [ ] Logos y otros recursos requeridos de marca (pendiente)
+* [x] Ideas de Figma
+- [ ] Logos y otros recursos requeridos de marca
 
 # Fundadores (Planteamiento y Desarrollo)
 * @UlfFrostyPaw (Desarrollo Front y Back)
 * Unos de mis amigos
 
 # POR HACER
-- [ ] Compontentes (Botones, sidebar)
+- [x] Compontentes (Botones, sidebar)
 - [ ] Terminar la API de Laravel
 - [ ] Implementar linea del tiempo https://github.com/karolkozer/planby
-- [ ] Personalización de tema https://www.hyperthe.me/
+- [ ] Personalización de tema (inspirado en https://www.hyperthe.me/)
 - [ ] Librería para crear imagenes en los metadatos de los usuario. parametros (primer nombre, apellidos, nombre de usuario, imagen actual de perfil del usuario, logo o iniciales de la app)
 - [ ] Emoji Picker https://github.com/missive/emoji-mart
-- [ ] Funcion de mapa (Inspirado en Furmap)
-- [ ] Sección de RolPlay
+- [x] Funcion de mapa (Inspirado en Furmap)
 - [ ] Servicio de correo electronico en subdominio
 - [ ] BOTS: https://github.com/mastashake08/laravel-chat-gpt-api
 
