@@ -5,10 +5,7 @@ const StatusConnection = () => {
     return(
         
         <Offline>
-            <Card
-                CardClass={'card-warning'}
-                CardContent={'No tienes conexión a internet.'}
-            />
+            <Card CardClass={'card-warning'}>Parece que tienes problemas de conexión a internet.</Card>
         </Offline>
     )
 }

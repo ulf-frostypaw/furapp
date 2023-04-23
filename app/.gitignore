@@ -24,6 +24,6 @@ yarn-error.log*
 
 
 #EXTRAS
-.env
+#.env
 .firebaserc
 fb.json

@@ -37,6 +37,7 @@
     "react-scripts": "5.0.1",
     "react-tooltip": "^5.10.5",
     "react-transition-group": "^4.4.5",
+    "reactfire": "^4.2.2",
     "styled-components": "^5.3.9",
     "web-vitals": "^2.1.4"
   },

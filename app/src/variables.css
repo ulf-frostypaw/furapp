@@ -1,6 +1,7 @@
 :root{
     --white: #fff;
     --gray: #99AAB5; /* DEFAULT COLOR */
+    --brand-color: #FFAE42;
 
     --color-normal: rgba(79, 84, 92, 1);
     --color-normal-t75: rgba(79, 84, 92, .75);

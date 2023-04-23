@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'react-tooltip/dist/react-tooltip.css' // REACT tooltip
@@ -8,14 +8,18 @@ import StatusConnection from './components/StatusConnection';
 import { BrowserRouter ,
 } from 'react-router-dom'
 
-
 //import NextProgress from "next-progress";
+import {FirebaseAppProvider} from 'reactfire'
+import { useAppFirebase } from './fb';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
-    <StatusConnection />
-    <App />
-  </BrowserRouter >
+  <Suspense fallback='Iniciando la app...'>
+      <BrowserRouter>
+        <StatusConnection />
+        <App />
+      </BrowserRouter >
+    </Suspense>
 );
 

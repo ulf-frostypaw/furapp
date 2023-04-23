@@ -1,8 +1,10 @@
+import { useParams } from 'react-router-dom';
 import Layout from '../../components/Layout'
-const User = ({getUsername}) => {
+function User(){
+    let {username} = useParams()
     return(
-        <Layout titlePage={'Perfil de Username'}>
-            <div>{getUsername}</div>
+        <Layout titlePage={'Perfil de: ' + username}>
+            <div>{username}</div>
         </Layout>
     );
 }

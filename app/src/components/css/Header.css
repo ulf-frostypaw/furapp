@@ -1,0 +1,55 @@
+.header{
+    width: 100%;
+    height: 60px;
+    top: 0;
+    position: sticky;
+    background: #222;
+    border-bottom: 1px solid #333;
+    z-index: 11;
+    display: flex;
+}
+.header-content{
+    width: calc(100% - 15px);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.logoContainer{
+    margin-right: 5px;
+}
+.logo{
+    max-width: 46px;
+}
+.buttonHeader{
+    border-radius: 100%;
+    padding: 17px;
+    background: #333;
+    transition: 300ms;
+    align-items: center;
+    display: flex;
+}
+.buttonHeader:hover{
+    background: #444;
+}
+.headerLink{
+    align-content: center;
+    display: grid;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.headerLinks{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.linkTop{
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+.linkTop:hover{
+    background: #333;
+}
+
+.cpx{
+    margin-top: 50%;
+}

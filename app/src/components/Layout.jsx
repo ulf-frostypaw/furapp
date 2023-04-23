@@ -1,7 +1,8 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 
-import HeaderLogged from './HeaderLogged';
+//import HeaderLogged from './HeaderLogged';
+import Header from './Header';
 const Layout = ({children, titlePage, LayoutClass}) =>{
     return(
         <>
@@ -9,7 +10,7 @@ const Layout = ({children, titlePage, LayoutClass}) =>{
                 <title>{titlePage} / FurrApp</title>
             </Helmet>
             
-            <HeaderLogged />
+            <Header />
             <div className={'container grid ' + LayoutClass}>{children}</div>
         </>
     ); 

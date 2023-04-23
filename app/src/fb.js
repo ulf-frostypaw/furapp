@@ -4,7 +4,7 @@
 
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth'
-export const app_firebase = firebase.initializeApp({
+export const useAppFirebase = firebase.initializeApp({
     "projectId": "furrapp-bc40b",
     "appId": "1:949177183273:web:8da90685c0935373e38038",
     "storageBucket": "furrapp-bc40b.appspot.com",
