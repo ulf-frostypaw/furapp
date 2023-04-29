@@ -1,55 +1,30 @@
 ## Visita la aplicación [aquí](https://furrapp.com)
 
- CONTRIBUYE PARA EL **CONCEPTO DE FIGMA: https://www.figma.com/file/MGjj4Vfunm4yB5PFZVqvrA/Fursonas-Site**
-
 # ¿Quienes somos?
 ## Misión
+Dar el poder a las personas en unirse a nuevas comunidades y conocer más personas alrededor del mundo.
+
 ## Visión
+Ser la principal Red Social en pro de la búsqueda de la identidad juvenil con responsabilidad.
+
 ## Valores
+Inclusión, Innovación, Responsabilidad, Unión, Privacidad, Aprendizaje, Emprendimiento, Accesibilidad, Calidad y Seguridad.
 
 ### Funciones
 
 * [ ] QR CODE https://www.npmjs.com/package/next-qrcode /// https://www.npmjs.com/package/qrcode.react
-* [ ] API en Laravel (PENDIENTE)
 
-#### Creación de cuenta (sign up)
-
-* [ ] Permite crear cuenta.
-* [ ] Valida email.
-* [ ] Valida password.
-* [ ] Muestra mensajes de error.
-
-#### Inicio de sesión (sign in)
-
-* [ ] Permite iniciar sesión.
-* [ ] Valida email.
-* [ ] Valida password.
-* [ ] Muestra mensajes de error.
-
-#### Muro (feed/submissions)
-
-* [ ] Muestra _muro_.
-* [ ] Permite publicar nuevos posts.
-* [ ] Permite eliminar posts.
-* [ ] Pide confirmación antes de borrar posts.
-* [ ] Permite editar posts.
-* [ ] Permite filtrar posts por público/amigos.
-* [ ] Permite marcar posts como _gustados_ (like).
-
-#### Usuario
-<img src="https://raw.githubusercontent.com/ulf-frostypaw/furapp/v1/screenshots/1.png" />
-
-#### Panel de Administrador
-* [ ] Administración de usuarios
-* [ ] Control de estadisticas
+### Funciones basicas
+* [ ] Acciones de los usuarios (iniciar sesión, crear cuenta, administrar su cuenta, contraseñas, dispositivos)
+* [ ] Administrar contenido (crear, actualizar, eliminar contenido de sus cuentas: fotos, texto, videos, likes, vistas)
+* [ ] Grupos
+* [ ] Tags (crear nuevas etiquetas con el #, nuevas imagenes con contenido destacado de las etiquetas mas pocupares)
 
 ### Diseño
-* [x] Ideas de Figma
-- [ ] Logos y otros recursos requeridos de marca
+Entra al **CONCEPTO en FIGMA: https://www.figma.com/file/MGjj4Vfunm4yB5PFZVqvrA/Fursonas-Site** para contribuir al desarrollo de ete proyecto
 
-# Fundadores (Planteamiento y Desarrollo)
+# Fundadores (Desarrollo)
 * @UlfFrostyPaw (Desarrollo Front y Back)
-* Unos de mis amigos
 
 # POR HACER
 - [x] Compontentes (Botones, sidebar)
@@ -61,6 +36,10 @@
 - [x] Funcion de mapa (Inspirado en Furmap)
 - [ ] Servicio de correo electronico en subdominio
 - [ ] BOTS: https://github.com/mastashake08/laravel-chat-gpt-api
+
+# Inspiración: 
+Este proyecto toma el conceot de la siguiene lista:
+ * [ ] 
 
 #### Avisos y extras
 lamento los inconvenientes si en algún punto abandono este proyecto...

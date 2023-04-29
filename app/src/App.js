@@ -45,13 +45,16 @@ function App() {
         <Route path="/map" isActive exact element={ <Map /> }/>
         
         <Route path='/user/:username' element={<User />} />
-        {/* User }
-        <Route path="/user/:getUsername" element={ <User /> }/>
-        <Route path="/user/:getUsername/gallery" element={ <UserGallery /> } />
-        <Route path="/user/:getUsername/journals" element={ <UserJournals /> }/>
-        <Route path="/user/:getUsername/following" element={ <UserFollowing /> }/>
-        <Route path="/user/:getUsername/followers" element={ <UserFollowers /> }/>
-  <Route path="/user/:getUsername/favorites" element={ <UserFavorites /> }/> */}
+        {/* User */}
+        <Route path="/user/:username" element={ <User /> }/>
+        <Route path="/user/:username/gallery" element={ <UserGallery /> } />
+        <Route path="/user/:username/journals" element={ <UserJournals /> }/>
+        <Route path="/user/:username/following" element={ <UserFollowing /> }/>
+        <Route path="/user/:username/followers" element={ <UserFollowers /> }/>
+        <Route path="/user/:username/favorites" element={ <UserFavorites /> }/>
+        <Route path="/user/:username/albums" element={ <UserFollowers /> }/>
+        <Route path="/user/:username/goals" element={ <UserFavorites /> }/> {/* PARA LOGROS - V1.1*/}
+
 
         {/* about page */}
         

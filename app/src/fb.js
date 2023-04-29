@@ -1,15 +1,33 @@
-// Copy and paste this into your JavaScript code to initialize the Firebase SDK.
-// You will also need to load the Firebase SDK.
-// See https://firebase.google.com/docs/web/setup for more details.
-
+/*
+* 	REGENERATE CARDS
+*/
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth'
-export const useAppFirebase = firebase.initializeApp({
-    "projectId": "furrapp-bc40b",
-    "appId": "1:949177183273:web:8da90685c0935373e38038",
-    "storageBucket": "furrapp-bc40b.appspot.com",
-    "apiKey": "AIzaSyAfzBUR7Wgppzm_D1q6Lhd4-KlnOkVjVp0",
-    "authDomain": "furrapp-bc40b.firebaseapp.com",
-    "messagingSenderId": "949177183273",
-    "measurementId": "G-KPK67CCP5D"
+export const app_firebase = firebase.initializeApp({
+    "projectId": "",
+    "appId": "",
+    "storageBucket": "",
+    "apiKey": "",
+    "authDomain": "",
+    "messagingSenderId": "",
+    "measurementId": ""
   });
+
+// Import the functions you need from the SDKs you need
+/*import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAsJyIus0M2lLVW46qA208pnCa5ReDrXR8",
+  authDomain: "furryapp-aad64.firebaseapp.com",
+  projectId: "furryapp-aad64",
+  storageBucket: "furryapp-aad64.appspot.com",
+  messagingSenderId: "910263361562",
+  appId: "1:910263361562:web:6ac07bbc77de9007e131a3"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+*/

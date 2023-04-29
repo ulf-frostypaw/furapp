@@ -36,3 +36,15 @@ export default function Login(props) {
     );
 }
 */
+
+const Login = () => {
+    return(
+        <div className="form">
+            {/*
+                * FORMULARIO CON FONDO EN MOVIEMINTO
+                * DOS CAMPOS DE ENTRADA: USUARIO, CONTRASEÑA
+                * CONTENIDO DESTACADO DEL DÍA (O ALEATORIO)
+            */}
+        </div>
+    );
+}
