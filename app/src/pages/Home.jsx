@@ -1,19 +1,26 @@
 import { Link } from 'react-router-dom'
 import Layout from "../components/Layout";
-//import CardComponentDiv from "../components/CardComponentDiv";
-//import Button from '../components/Button' ADD SUSPENSE
-import Card from '../components/Card'
-//import Textarea from "../components/Textarea";
-//import ReaderJournal from "../components/Read/Journal";
-//import { app_firebase } from '../fb';
-// NO MOSTRAR EL LAYOUT CUANDO NO SE HAYA INICIADO SESIón
-import Loading from '../components/loading';
+import Sidebar from '../components/Sidebar';
+
 export default function Home(){
     return(
-        <><Loading />
-        <Layout titlePage={'Inicio'}>
-             
-        </Layout>
+        <>
+            <Layout titlePage={'Inicio'}>
+                <div className="container-grid">
+                    <Sidebar />
+                    <div className="middle">
+                        <form action="" className="create-post">
+                            <div className="profile-picture">
+                                <img src="https://via.placeholder.com/150" alt="" />
+                            </div>
+                            <input type="text" name="" placeholder='Escribe...' id="create-post" />
+                            <button className="btn btn-primary">Publicar</button>
+                        </form>
+                    </div>
+                    <div className="right">
+                    </div>
+                </div>
+            </Layout>
         </>
     );
 }

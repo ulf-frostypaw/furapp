@@ -8,6 +8,7 @@ import Blog from './pages/blog/Blog'
 import Home from './pages/Home'
 import Users from './pages/Users'
 import Map from './pages/Map'
+import Notifications from './pages/Notifications'
 import Error404 from './pages/Error404'
 
 // USER
@@ -43,6 +44,7 @@ function App() {
         <Route path='/blog' exact element={<Blog />} />
         <Route path="/users" isActive exact element={ <Users /> } />
         <Route path="/map" isActive exact element={ <Map /> }/>
+        <Route path="/notifications" isActive exact element={ <Notifications /> } />
         
         <Route path='/user/:username' element={<User />} />
         {/* User */}
