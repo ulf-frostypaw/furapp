@@ -37,14 +37,16 @@ export default function Login(props) {
 }
 */
 
+import Layout from "../../components/Layout";
+
 const Login = () => {
     return(
-        <div className="form">
-            {/*
-                * FORMULARIO CON FONDO EN MOVIEMINTO
-                * DOS CAMPOS DE ENTRADA: USUARIO, CONTRASEÑA
-                * CONTENIDO DESTACADO DEL DÍA (O ALEATORIO)
-            */}
-        </div>
+        <Layout titlePage={'Iniciar sesión'}>
+            <div className="container-grid">
+                <h2>KJSDKJSKDJ</h2>
+            </div>
+        </Layout>
     );
 }
+
+export default Login;

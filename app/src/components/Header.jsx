@@ -1,9 +1,6 @@
 import './css/Header.css';
 import { Link, NavLink } from 'react-router-dom';
 import {BiSearchAlt} from 'react-icons/bi'
-import {IoMdArrowBack} from 'react-icons/io'
-import {AiFillHome, AiFillCaretDown} from 'react-icons/ai'
-import {FaMapMarkedAlt, FaUsers} from 'react-icons/fa'
 export default function Header(){
     return(
         <nav>

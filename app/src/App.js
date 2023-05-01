@@ -9,7 +9,11 @@ import Home from './pages/Home'
 import Users from './pages/Users'
 import Map from './pages/Map'
 import Notifications from './pages/Notifications'
+import Bookmarks from './pages/Bookmarks'
 import Error404 from './pages/Error404'
+
+// SETTINGS
+import MainUserSettings from './pages/settings/MainUserSettings'
 
 // USER
 import User from './pages/User/User'
@@ -18,6 +22,11 @@ import UserJournals from './pages/User/Journals'
 import UserFollowing from './pages/User/Following'
 import UserFollowers from './pages/User/Followers'
 import UserFavorites from './pages/User/Favorites' // likes & stars (Def: public)
+
+// FORMS
+import Login from './pages/forms/Login'
+
+
 import { useEffect, useState } from 'react'
 
 import { useAppFirebase } from './fb'
@@ -45,6 +54,8 @@ function App() {
         <Route path="/users" isActive exact element={ <Users /> } />
         <Route path="/map" isActive exact element={ <Map /> }/>
         <Route path="/notifications" isActive exact element={ <Notifications /> } />
+        <Route path="/bookmarks" isActive exact element={ <Bookmarks /> } />
+        <Route path="/settings" isActive exact element={ <MainUserSettings /> } />
         
         <Route path='/user/:username' element={<User />} />
         {/* User */}
@@ -60,6 +71,7 @@ function App() {
 
         {/* about page */}
         
+        <Route path='/login' exact element={ <Login /> } />
         {/* settings/controls page */}
   
       <Route path='*' element={ <Error404 /> } />

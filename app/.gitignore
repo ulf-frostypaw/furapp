@@ -26,4 +26,6 @@ yarn-error.log*
 #EXTRAS
 #.env
 .firebaserc
+/src/fb.js
 .conf
+.env

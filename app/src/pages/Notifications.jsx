@@ -7,7 +7,7 @@ export default function Notifications(){
             <div className="container-grid">
                 <Sidebar />
                 <div className="midle">
-                    <h2>Notificationes</h2>
+                    <h2>Notificaciones</h2>
                 </div>
             </div>
         </Layout>

@@ -34,6 +34,7 @@ const Sidebar = () =>{
                 <NavLink to={'/settings'} className={({ isActive }) => isActive ? "menu-item active" : "menu-item" }>
                     <BiCog size={'1.3rem'} className='uil' /> <h3>Configuración</h3>
                 </NavLink>
+                {/* MODAL PARA CAMBIAR LOS ESTILOS DE LA  PAGINA Y GUARDAR EN localStorage*/}
                 <NavLink to={'/theme'} className="menu-item">
                     <BiPalette size={'1.3rem'} className='uil' /> <h3>Temas</h3>
                 </NavLink>
