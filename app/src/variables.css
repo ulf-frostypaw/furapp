@@ -2,6 +2,14 @@
     --white: #fff;
     --gray: #99AAB5; /* DEFAULT COLOR */
     --brand-color: #FFAE42;
+    
+    --Primary-color: #ffffff; /*(RGB: 255, 255, 255)*/
+    --Secondary: #30281d; /*(RGB: 48, 40, 29)*/
+    --Primary: #ffad42; /*(RGB: 255, 173, 66)*/
+    --Secondary-Button: #ffe4c2; /*(RGB: 255, 228, 194)*/
+    --Accent: #d2841e; /*(RGB: 210, 132, 30)*/
+    --color-bg: #110e00;
+
 
     /*--color-normal: rgba(79, 84, 92, 1);
     --color-normal-t75: rgba(79, 84, 92, .75);

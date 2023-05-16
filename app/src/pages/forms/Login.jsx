@@ -40,10 +40,11 @@ export default function Login(props) {
 import Layout from "../../components/Layout";
 
 const Login = () => {
+    // PUEDE SER UN MODAL 
     return(
         <Layout titlePage={'Iniciar sesión'}>
             <div className="container-grid">
-                <h2>KJSDKJSKDJ</h2>
+                <h2>Iniciar sesión</h2>
             </div>
         </Layout>
     );

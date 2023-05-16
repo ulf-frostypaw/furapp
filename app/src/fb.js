@@ -1,6 +1,3 @@
-/*
-* 	REGENERATE CARDS
-*/
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth'
 export const useAppFirebase = firebase.initializeApp({
@@ -12,17 +9,3 @@ export const useAppFirebase = firebase.initializeApp({
   appId: "1:910263361562:web:6ac07bbc77de9007e131a3"
 
 });
-
-// Import the functions you need from the SDKs you need
-/*import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-*/

@@ -1,10 +1,10 @@
-import {BiHomeAlt, BiPalette, BiCog} from 'react-icons/bi'
+import {BiHomeAlt, BiPalette, BiCog, BiHash} from 'react-icons/bi'
 import {FiUsers, FiBell, FiBookmark} from 'react-icons/fi'
 import { HiOutlineMapPin } from 'react-icons/hi2' 
 import {Link, NavLink} from 'react-router-dom'
 const Sidebar = () =>{
     return(
-        <div className="left">
+        <div className="left mobile-hidden">
             <Link to={'/user/ulf-frostypaw'} className="profile">
                 <div className="profile-picture">
                     <img src="https://via.placeholder.com/150" alt="" />
@@ -21,6 +21,9 @@ const Sidebar = () =>{
                 <NavLink to={'/users'} className={({ isActive }) => isActive ? "menu-item active" : "menu-item" }>
                     <FiUsers size={'1.3rem'} className='uil' /> <h3>Miembros</h3>
                 </NavLink>
+                <NavLink to={'/trend'} className={({ isActive }) => isActive ? "menu-item active" : "menu-item" }>
+                    <BiHash size={'1.3rem'} className='uil' /> <h3>Tendencias</h3>
+                </NavLink>
                 <NavLink to={'/map'} className={({ isActive }) => isActive ? "menu-item active" : "menu-item" }>
                     <HiOutlineMapPin size={'1.3rem'} className='uil' /> <h3>Mapa</h3>
                 </NavLink>
@@ -35,9 +38,9 @@ const Sidebar = () =>{
                     <BiCog size={'1.3rem'} className='uil' /> <h3>Configuración</h3>
                 </NavLink>
                 {/* MODAL PARA CAMBIAR LOS ESTILOS DE LA  PAGINA Y GUARDAR EN localStorage*/}
-                <NavLink to={'/theme'} className="menu-item">
+                {/*<NavLink to={'/theme'} className="menu-item">
                     <BiPalette size={'1.3rem'} className='uil' /> <h3>Temas</h3>
-                </NavLink>
+                </NavLink>*/}
             </div>
             <label htmlFor="create-post" className='btn btn-primary'>Publicar algo</label>
         </div>

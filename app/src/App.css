@@ -110,7 +110,7 @@ main{
   width: 90%;
   margin: auto;
   display: grid;
-  grid-template-columns: 18vw auto 20vw;
+  grid-template-columns: 18vw auto auto;
   column-gap: 2rem;
   position: relative;
   margin-top: 1rem;
@@ -124,6 +124,9 @@ main{
   width: 100%;
   text-align: center;
   padding: 1rem 0;
+}
+.right{
+  max-width: 250px;
 }
 .profile{
   padding: var(--card-padding);
@@ -204,4 +207,114 @@ main{
   color: var(--color-dark);
   font-family: 'Poppins', sans-serif;
   background: transparent;
+}
+
+/* ======== [FEED CONTENT] ========= */
+.feed{
+  background: var(--color-white);
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+  margin: 1rem 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+.feed .head{
+  display: flex;
+  justify-content: space-between;
+}
+.head .user{
+  display: flex;
+  gap: 1rem;
+}
+.photo{
+  overflow: hidden;
+  margin: .3rem 0;
+  border-radius: var(--border-radius);
+}
+.action-buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  margin: .6rem;
+}
+.liked-by{
+  display: flex;
+
+}
+.actions{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.action{
+  display: flex;
+  align-items: center;
+}
+.card{
+  background: var(--color-white);
+  border-radius: var(--border-radius);
+  padding: var(--card-padding);
+}
+
+/* ====== [MEMBERS PAGE ] ========= */
+.members{
+  display: flex;
+  row-gap: .5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.members .card{
+  text-align: center;
+}
+.members .photo{
+  max-width: 170px;
+}
+.members .btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ============ [ DARK COLOR SCHEME ] ============ 
+@media (prefers-color-scheme: dark) {
+  body{
+    background: var(--color-bg);
+    color: var(--Primary-color);
+  }
+  nav{
+    background: #222;
+    color: var(--color-white);
+  }
+  .card{
+    background: var(--Secondary);
+  }
+  .btn-primary{
+    background: var(--Primary);
+  }
+}
+*/
+/* FOOTER */
+footer{
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+.nav-mobile{
+  display: none;
+}
+@media (max-width: 750px){
+  .nav-mobile{
+    width: 100%;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    background: #000;
+    display: block;
+  }
+  .mobile-hidden{
+    display: none;
+  }
+  .container-grid{
+    grid-template-columns: auto;
+  }
 }

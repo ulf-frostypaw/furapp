@@ -7,3 +7,4 @@
 /extra
 /app/.env
 /app/.conf
+/app/src/fb.js
