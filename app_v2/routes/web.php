@@ -5,24 +5,32 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 Route::get('/', function () {
-    return Inertia::render('Welcome', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
-    ]);
+    return Inertia::render('Home');
+});
+Route::get('/users', function () {
+    return Inertia::render('Users');
+});
+Route::get('/trend', function () {
+    return Inertia::render('Trendes');
+});
+Route::get('/map', function () {
+    return Inertia::render('Map');
+});
+Route::get('/c/notifications', function () {
+    return Inertia::render('Controls/Notifications');
+});
+Route::get('/c/bookmarks', function () {
+    return Inertia::render('Controls/Bookmarks');
+});
+Route::get('/c/settings', function () {
+    return Inertia::render('Controls/Settings');
+});
+
+
+Route::get('/user/{username}', function(){
+    return "Imprimes el nombre de usuario";
 });
 
 Route::get('/dashboard', function () {

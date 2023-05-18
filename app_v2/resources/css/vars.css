@@ -1,0 +1,79 @@
+:root{
+    --white: #fff;
+    --gray: #99AAB5; /* DEFAULT COLOR */
+    --brand-color: #FFAE42;
+    
+    --Primary-color: #ffffff; /*(RGB: 255, 255, 255)*/
+    --Secondary: #30281d; /*(RGB: 48, 40, 29)*/
+    --Primary: #ffad42; /*(RGB: 255, 173, 66)*/
+    --Secondary-Button: #ffe4c2; /*(RGB: 255, 228, 194)*/
+    --Accent: #d2841e; /*(RGB: 210, 132, 30)*/
+    --color-bg: #110e00;
+
+    --color-gray-000: #010101;
+    --color-gray-100: #111111;
+    --color-gray-200: #212121;
+    --color-gray-300: #313131;
+    --color-gray-400: #414141;
+    --color-gray-500: #515151;
+    --color-gray-600: #616161;
+    --color-gray-700: #717171;
+    --color-gray-800: #818181;
+    --color-gray-900: #919191;
+
+    --color-white-000: #fafafa;
+    --color-white-100: #eaeaea;
+    --color-white-200: #dadada;
+    --color-white-300: #cacaca;
+    --color-white-400: #bababa;
+    --color-white-500: #aaaaaa;
+
+
+    /*--color-normal: rgba(79, 84, 92, 1);
+    --color-normal-t75: rgba(79, 84, 92, .75);
+    --color-normal-t50: rgba(79, 84, 92, .50);
+
+    --color-primary: rgba(88, 101, 242, 1);
+    --color-primary-t75: rgba(88, 101, 242, .75);
+    --color-primary-t50: rgba(88, 101, 242, .50);
+
+    --color-success: rgba(67, 181, 129, 1);
+    --color-success-t75: rgba(67, 181, 129, .75);
+    --color-success-t50: rgba(67, 181, 129, .50);
+
+    --color-warning: rgba(201, 140, 35, 1);
+    --color-warning-t75: rgba(201, 140, 35, .75);
+    --color-warning-t50: rgba(201, 140, 35, .50);
+
+    --color-danger: rgba(236, 97, 91, 1);
+    --color-danger-t75: rgba(236, 97, 91, .75);
+    --color-danger-t50: rgba(236, 97, 91, .50);
+
+    --color-gray-100: #404040;
+    --color-gray-200: #242424;
+    --color-gray-300: #131313;
+    --color-gray-400: #141414;
+
+    --color-gray-500: #111111;
+    --color-gray-600: #000000;*/
+
+
+    --color-white: hsl(252, 30%, 100%);
+    --color-light: hsl(252, 30%, 95%);
+    --color-gray: hsl(252, 15%, 65%);
+    --color-primary: hsl(252, 75%, 60%);
+    --color-secondary: hsl(252, 100%, 90%);
+    --color-success: hsl(120, 95%, 65%);
+    --color-danger: hsl(0, 95%, 65%);
+    --color-dark: hsl(252, 30%, 17%);
+    --color-black: hsl(252, 30%, 10%);
+
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
+
+    --sticky-top-left: 5.4rem;
+    --sticky-top-right: -18rem;
+}
