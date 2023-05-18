@@ -37,9 +37,9 @@ Puedes ver el concepto en [Figma](https://www.figma.com/file/MGjj4Vfunm4yB5PFZVq
 ## TODO LIST:
 _Los iré quitando de acuerdo a las actividades nuevas/completadas._
 
-* [ ] active links en el sidebar
+* [x] active links en el sidebar
 * [ ] Re-build en Laravel ```app_v2```
-* [ ] Mapa
+* [x] Mapa
 * [ ] Soporte multi idioma
 * [ ] Temas
 * [ ] Loggeo con codigo QR

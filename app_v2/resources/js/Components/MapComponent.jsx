@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from '@inertiajs/react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet';
@@ -10,23 +10,23 @@ import data from './map.json'
 
 function getIcon(){
     return L.icon({
-        iconUrl: require('../img/icons/marker_small.png'),
+        //iconUrl: require('../img/icons/marker_small.png'), CHANGE FOR PUBLIC FOLDER 
         //shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
         iconSize: [40, 40]
     })
 }
-
+{/*icon={getIcon()} */}
 const MapComponent = ({heightMap}) => {
     const [puntos, setPuntos] = useState([]);
     const points = () => {
         let arreglo = [];
         data.map(info => {
             arreglo.push(
-                <Marker icon={getIcon()} position={[info.latitude, info.longitude]} >
+                <Marker position={[info.latitude, info.longitude]} >
                     <Popup>
                         {info.username}
                         <br />
-                        <Link to={'/user/' + info.idsmall}>Ver perfil</Link>
+                        <Link href={'/user/' + info.idsmall}>Ver perfil</Link>
                     </Popup>
                 </Marker>
             );
