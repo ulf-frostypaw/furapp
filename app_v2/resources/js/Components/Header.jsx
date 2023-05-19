@@ -1,5 +1,5 @@
 import { Link } from '@inertiajs/react';
-//import {BiSearchAlt} from 'react-icons/bi'
+import {BiSearchAlt} from 'react-icons/bi'
 export default function Header(){
     return(
         <nav>
@@ -8,7 +8,7 @@ export default function Header(){
                     <Link href={'/'}>FurrApp</Link>
                 </h2>
                 <div className="search-bar">
-                    {/*<BiSearchAlt />*/}
+                    <BiSearchAlt />
                     <input type="search" name="" placeholder="Buscar personas aquí." id="" />
                 </div>
                 <div className="create">

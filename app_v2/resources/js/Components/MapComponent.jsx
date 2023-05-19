@@ -3,6 +3,8 @@ import { Link } from '@inertiajs/react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet';
+import icon from '../marker_small.png'
+//import iconShadow from 'leaflet/dist/images/marker-shadow.png'
 
 import MarkerClusterGroup from 'react-leaflet-cluster';
 
@@ -10,19 +12,19 @@ import data from './map.json'
 
 function getIcon(){
     return L.icon({
-        //iconUrl: require('../img/icons/marker_small.png'), CHANGE FOR PUBLIC FOLDER 
-        //shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+        iconUrl: icon, //CHANGE FOR PUBLIC FOLDER 
+        //shadowUrl: iconShadow,
         iconSize: [40, 40]
     })
 }
-{/*icon={getIcon()} */}
+
 const MapComponent = ({heightMap}) => {
     const [puntos, setPuntos] = useState([]);
     const points = () => {
         let arreglo = [];
         data.map(info => {
             arreglo.push(
-                <Marker position={[info.latitude, info.longitude]} >
+                <Marker icon={getIcon()} position={[info.latitude, info.longitude]} >
                     <Popup>
                         {info.username}
                         <br />

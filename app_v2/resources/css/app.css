@@ -214,6 +214,7 @@ main{
   background: var(--color-white);
   border-radius: var(--card-border-radius);
   padding: var(--card-padding);
+  /*box-shadow: 0px 1px 2px 0 var(--color-dark);*/
   margin: 1rem 0;
   font-size: 0.85rem;
   line-height: 1.5;
@@ -274,6 +275,16 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+/* == LOGIN == */
+.login{
+  display: flex;
+  margin: auto;
+  border: 1px solid var(--color-white-500);
+}
+/* ======== [ EXTRAS ] ========= */
+.section{ 
+  padding: 3rem 1.5rem;
 }
 /* ============ [ DARK COLOR SCHEME ] ============ 
 @media (prefers-color-scheme: dark) {

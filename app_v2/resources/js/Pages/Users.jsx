@@ -1,6 +1,6 @@
 import Layout from "@/Layouts/Layout";
 import Sidebar from "@/Components/Sidebar";
-//import {BiUserPlus} from 'react-icons/bi'
+import {BiUserPlus} from 'react-icons/bi'
 
 export default function Users() {
     return(
@@ -13,17 +13,17 @@ export default function Users() {
                         <div className="card">
                             <div className="photo"><img src="https://via.placeholder.com/250" alt="" /></div>
                             <h3 className="username">Ulf FrostyPaw</h3>
-                            <div className="btn btn-primary">{/*<BiUserPlus size={20} />*/} Seguir</div>
+                            <div className="btn btn-primary"><BiUserPlus size={20} /> Seguir</div>
                         </div>
                         <div className="card">
                             <div className="photo"><img src="https://via.placeholder.com/250" alt="" /></div>
                             <h3 className="username">Ulf FrostyPaw</h3>
-                            <div className="btn btn-primary">{/*<BiUserPlus size={20} />*/} Seguir</div>
+                            <div className="btn btn-primary"><BiUserPlus size={20} /> Seguir</div>
                         </div>
                         <div className="card">
                             <div className="photo"><img src="https://via.placeholder.com/250" alt="" /></div>
                             <h3 className="username">Ulf FrostyPaw</h3>
-                            <div className="btn btn-primary">{/*<BiUserPlus size={20} />*/} Seguir</div>
+                            <div className="btn btn-primary"><BiUserPlus size={20} /> Seguir</div>
                         </div>
                         {/* ADD PAGINATION OR USERS AUTOLOADER */}
                     </div>

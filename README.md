@@ -38,12 +38,13 @@ Puedes ver el concepto en [Figma](https://www.figma.com/file/MGjj4Vfunm4yB5PFZVq
 _Los iré quitando de acuerdo a las actividades nuevas/completadas._
 
 * [x] active links en el sidebar
-* [ ] Re-build en Laravel ```app_v2```
+* [x] Re-build en Laravel ```app_v2```
 * [x] Mapa
 * [ ] Soporte multi idioma
 * [ ] Temas
 * [ ] Loggeo con codigo QR
 * [ ] Registro y loggeo con Telegram
 * [ ] Ilustraciones (flujos)
+* [ ] landing page
 
 **ESTE PROYECTO FUE REALIZADO EN COLABORACIÓN DE [Purrgrammers Studio's](https://github.com/Purrgrammers-Studio)**
