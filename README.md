@@ -1,4 +1,4 @@
-<img src="./screenshots/cover.png" />
+<img src="./screenshots/cover-1.png" />
 
 ## [Ir al sitio web](https://furrapp.com)
 
@@ -44,7 +44,7 @@ _Los iré quitando de acuerdo a las actividades nuevas/completadas._
 * [ ] Temas
 * [ ] Loggeo con codigo QR
 * [ ] Registro y loggeo con Telegram
-* [ ] Ilustraciones (flujos)
+* [x] Ilustraciones (flujos)
 * [ ] landing page
 
 **ESTE PROYECTO FUE REALIZADO EN COLABORACIÓN DE [Purrgrammers Studio's](https://github.com/Purrgrammers-Studio)**

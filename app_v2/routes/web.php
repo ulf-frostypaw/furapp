@@ -30,8 +30,11 @@ Route::prefix('c')->group(function(){
     Route::get('/bookmarks', function () {
         return Inertia::render('Controls/Bookmarks');
     });
-    Route::get('/settings', function () {
-        return Inertia::render('Controls/Settings');
+});
+// SETTINGS
+Route::prefix('settings')->group(function(){
+    Route::get('/', function () {
+        return Inertia::render('Controls/Settings/Index');
     });
 });
 // USER PROFILE

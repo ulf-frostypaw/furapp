@@ -35,7 +35,7 @@ const Sidebar = () =>{
                 <Link href={'/c/bookmarks'} className={url === '/c/bookmarks' ? 'menu-item active' : "menu-item" }>
                     <FiBookmark size={'1.3rem'} className='uil' /> <h3>Guardados</h3>
                 </Link>
-                <Link href={'/c/settings'} className={url === '/c/settings' ? 'menu-item active' : "menu-item" }>
+                <Link href={'/settings/'} className={url === '/c/settings' ? 'menu-item active' : "menu-item" }>
                     <BiCog size={'1.3rem'} className='uil' /> <h3>Configuración</h3>
                 </Link>
                 {/* MODAL PARA CAMBIAR LOS ESTILOS DE LA  PAGINA Y GUARDAR EN localStorage*/}
