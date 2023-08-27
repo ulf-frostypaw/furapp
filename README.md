@@ -1,3 +1,7 @@
+# NOTA: ESTE REPO FUE ARCHIVADO Y MOVIDO A LA SUIGIENTE DIRECCIÓN: https://github.com/ulf-frostypaw/website
+
+
+
 ## [Ir al sitio web](https://furrapp.com)
 
 # Sobre este proyecto
