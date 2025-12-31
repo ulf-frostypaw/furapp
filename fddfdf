@@ -1,0 +1,67 @@
+{isLoggedIn ? (
+					<>
+						<div className="flex-grow">
+							<div className="flex justify-center">
+								<IconButton label="Inicio">
+									<Image
+										src="/entail-logo.svg"
+										alt="Logo"
+										width={30}
+										height={34}
+										className="h-[34px] w-[30px]"
+									/>
+								</IconButton>
+							</div>
+						</div>
+
+						<div className="flex items-center space-x-2">
+							<IconButton label="Nuevo" onClick={onAdd}>
+								<PlusIcon />
+							</IconButton>
+							<IconButton label="Notificaciones" onClick={onNotifications}>
+								<BellIcon />
+							</IconButton>
+							<button
+								type="button"
+								aria-label="Perfil"
+								onClick={onProfile}
+								className="flex items-center gap-2 rounded-full border border-white/30 bg-white/5 px-2 py-1 pr-3 transition hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+							>
+								<span className="flex h-10 w-10 items-center justify-center rounded bg-white/10">
+									<UserIcon />
+								</span>
+							</button>
+						</div>
+					</>
+				) : (
+					<>
+						<div className="flex-grow">
+							<div className="flex justify-center">
+								<Image
+									src="/static/entail-logo-typography.svg"
+									alt="Entail"
+									width={115}
+									height={33}
+									className="h-[33px] w-[115px]"
+								/>
+							</div>
+						</div>
+
+						<div className="flex items-center space-x-3">
+							<button
+								type="button"
+								onClick={() => openModal(AppModalsEnum.SignIn)}
+								className="rounded bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+							>
+								log in
+							</button>
+							<button
+								type="button"
+								onClick={() => openModal(AppModalsEnum.CreateAccount)}
+								className="rounded bg-yellow-400 px-4 py-2 text-sm font-semibold text-black transition hover:bg-yellow-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+							>
+								sign up
+							</button>
+						</div>
+					</>
+				)}
